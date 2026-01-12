@@ -28,6 +28,17 @@ This repository contains the **distilled corrections and principles** that addre
 - Complete behavior specification
 - Reference documentation
 
+### 🔧 GEMINI-OPTIMAL-INSTRUCTIONS.md
+**Gemini-optimized configuration** - Tailored instruction set for Gemini-based coding agents with MCP tool integration and sequential thinking requirements.
+
+### ☁️ cloud-agent-workflows/
+**Cloud coding agent workflows** - Specialized prompts for autonomous cloud agents (e.g., Jules, Codex). These workflows guide agents through systematic, phased approaches:
+
+| Workflow | Purpose |
+|----------|---------|
+| `debug_workflow.md` | Comprehensive codebase audit for bugs, optimizations, and refactoring opportunities |
+| `fix_types.md` | Systematic elimination of weak typing (`any`, missing types, unsafe casts) |
+
 ---
 
 ## Platform Compatibility
@@ -152,7 +163,11 @@ These instructions evolved from real-world failures and corrections. If you disc
 Repo-System-Instructions/
 ├── README.md                          # This file
 ├── AGENT_SYSTEM_INSTRUCTIONS.md       # Complete unified instruction set (~650 lines)
-└── AGENT_RULES_INDIVIDUAL.md          # Modular copy-paste rules (~480 lines)
+├── AGENT_RULES_INDIVIDUAL.md          # Modular copy-paste rules (~480 lines)
+├── GEMINI-OPTIMAL-INSTRUCTIONS.md     # Optimized config for Gemini-based agents
+└── cloud-agent-workflows/             # Cloud agent-specific workflows
+    ├── debug_workflow.md              # Comprehensive debugging/audit workflow
+    └── fix_types.md                   # Systematic type-strengthening workflow
 ```
 
 ---

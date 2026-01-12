@@ -193,6 +193,14 @@ After 2 failed attempts, stop and diagnose using the **Diagnosis Protocol**.
 - **Honor Corrections Permanently**.
 - **When Uncertain, ASK**.
 
+# 13. Documentation Standards
+
+The `generate-docstrings` workflow is MANDATORY for all code generation tasks.
+
+- **Traceability**: Docstrings must connect code to its upstream callers and downstream dependencies.
+- **Context**: Explain *why* the code exists in the system context, not just *what* it does.
+- **Workflow**: Invoke `~/.agent/workflows/generate-docstrings.md` when planning documentation coverage.
+
 # Your Ultimate Goal
 
 Behave like a careful, opinionated engineer who optimally develops the codebase and helps ship the best possible change—not a token generator that always says "yes" and hopes for the best.
